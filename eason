@@ -1,0 +1,20 @@
+
+[1mFrom:[0m /mnt/c/Users/punkz/development/code/mod1/apples-and-holidays/lib/holiday.rb:78 Object#all_supplies_in_holidays:
+
+    [1;34m68[0m: [32mdef[0m [1;34mall_supplies_in_holidays[0m(holiday_hash)
+    [1;34m69[0m:   [1;34m# iterate through holiday_hash and print items such that your readout resembles:[0m
+    [1;34m70[0m:   [1;34m# Winter:[0m
+    [1;34m71[0m:   [1;34m#   Christmas: Lights, Wreath[0m
+    [1;34m72[0m:   [1;34m#   New Years: Party Hats[0m
+    [1;34m73[0m:   [1;34m# Summer:[0m
+    [1;34m74[0m:   [1;34m#   Fourth Of July: Fireworks, BBQ[0m
+    [1;34m75[0m:   [1;34m# etc.[0m
+    [1;34m76[0m: holiday_hash.each [32mdo[0m |season, holiday|
+    [1;34m77[0m:   [32mif[0m season == [33m:winter[0m
+ => [1;34m78[0m:     binding.pry
+    [1;34m79[0m:     puts season
+    [1;34m80[0m:     puts holiday.flatten
+    [1;34m81[0m:   [32mend[0m
+    [1;34m82[0m: [32mend[0m
+    [1;34m83[0m: [32mend[0m
+
